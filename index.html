@@ -1,16 +1,530 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="msvalidate.01" content="3QFbP8gbi1t282FGeBW2TL55Uhh4WSJKmH" />
-	<meta name="msvalidate.01" content="441E8E95B52A2EC61C57AC277B199FDA" />
-	<title>网站跳转重定向中</title>
-	<link rel="stylesheet" href="template">
-</head>
-<body>
-	<div class="">Hello world</div>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="format-detection" content="telphone=no,email=no">
+    <meta name="keywords" content="小小-白">
+    <meta name="description" itemprop="description" content="小白的博客">
+    <meta property="og:title" content="coffee blog">
+    <meta property="og.site_name" content="coffee blog">
+    <meta property="og.type" content="website">
+    <meta property="og.description" content="小白的博客">
+    <meta property="og.url" content="http://loking.tk">
+    <meta name="twitter:title" coneent="coffee blog">
+    <meta name="twitter:description" content="小白的博客">
+    <meta name="twitter:card" content="summary">
+    <meta name="msvalidate.01" content="3QFbP8gbi1t282FGeBW2TL55Uhh4WSJKmH" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <link rel="alternate" type="application/rss+xml" title="coffee blog >> RSS 2.0" href="http://loking.tk/feed/">
+    <link rel="alternate" type="application/atom+xml" title="coffee blog >> ATOM 1.0" href="http://loking.tk/atom">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>白纯色的咖啡</title>
+    <head>
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.2/static/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
+<link rel="stylesheet" id="kratos-css" href="https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.3/static/css/kratos.min.css?ver=0.4.3" type="text/css" media="all">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.2/static/js/jquery.min.js?ver=2.1.4"></script>
+<style>
+    body{
+        size: 100%;
+    }
+    #offcanvas-menu{
+        background:rgba(42,42,42,.9)
+        }
+    .affix{
+        top: 61px
+        }
+    .kratos-cover.kratos-cover_2{
+        background-image: url(img/0.jpg);
+        }
+    element.style{
+        background: #f5f5f5;
+    }
+    #kratos-blog-post{
+        padding: 20px 0;
+    }
+    * {
+        -webkit-box-sizing: border-box ;
+        -moz-box-sizing: border-box ;
+        box-sizing: border-box ;
+    }
+    div {
+        display: block;
+    }
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,opensans,opensans,Optima,"Microsoft YaHei" ,sans-serif;
+        line-height: 1.8;
+        font-size: 16px;
+        background: #f5f5f5;
+        color: #848484;
+        font-weight: 300;
+        cursor: url(image/banner_1.png),default;
+        overflow-x: fidden;
+        margin: 0;
+    }
+    :after, :before{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    :after, :before{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    ::selection {
+        background: (0.149.255,.2);
+    }
+    .faa-float.animated, .faa-float.animated-hover:hover, .faa-parent.animated-hover:hover>.faa-float {
+        -webkit-animation: float 2s linear infinite;
+        animation: float 2s linear infinite;
+    }
+    .faa-float.animated, .faa-float.animated-hover:hover, .faa-parent.animated-hover:hover>.faa-float {
+        -webkit-animation: float 2s linear infinite;
+        animation: float 2s linear infinite;
+    }
+    .cd-top{
+        position: fixed;
+        right: 25px;
+        top: 900px;
+        z-index: 99;
+        width: 70px;
+        height: 900px;
+        background: url(https://cdnjsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/scroll.png) no-repeat center;
+        background-size: contain;
+        -webkit-transition: all .5s ease-in-out;
+        transition:all .5s ease-in-out;
+        cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/NoDisponible.cur),auto;
+        opacity: 1;
+    }
+    a{
+        color: #e67474;
+        outline: 0;
+        -webkit-transition: color .2s ease-out,border .2s ease-out,opacity .2s ease-out;
+        -moz-transition: color .2s ease-out,border .2s ease-out,opacity .2s ease-out;
+        transition: color .2s ease-out,border .2s ease-out,opacity .2s ease-out;
+    }
+    a{
+        background-color: transparent;
+        text-decoration: none;
+        cursor:url(https://cdn,jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur),auto;
+    }
+    *{
+    box-sizing: border-box;
+    }
+    .serif{
+        font-family: 'Noto Serif SC','Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PI Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+    }
+    .chinese-font{
+        font-family:'Merriwather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','MICROSOFT Yahe','WenQuanYi Micro Hei',sans-serif;
+    }
+    body{
+        background:#FFF;
+        background-attachment:fixed;
+        cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur),auto;
+    }
+    body, button, input, select, textarea {
+        color: #404040;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    body{
+        margin: 0;
+        text-shadow: 0 0 1px rgba(0,0,0,.2)
+    }
+    :root{
+        --wp-admin-theme-color:#007cba;
+        --wp-admin-theme-color-darker-10: #006ba1;
+        --wp-admin-theme-color-darker-20: #005a87;
+    }
+    html{
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        overflow-x: hidden;
+    }
+    :after, :before {
+        box-sizing: inherit;
+    }
+    :after, :before{
+        box-sizing: inherit;
+    }
+    ::-webkir-scrollbar-track{
+        background: #eee;
+    }
+    ::selection{
+        background: #444;
+        color: #fff;
+    }
+
+    /* 日历 */
+    /* .calendar {
+    background-color:yellow;
+    width: 540px;
+    height: 350px;
+    transform: translateY(90vh);
+    -webkit-transform: translateY(6vh);
+    margin-left: 55%;
+    opacity: 0.7;
+}
+
+.body-list ui {
+    width: 100%;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.body-list ui li {
+    background-color:#565656;
+    padding: 10px 20px;
+    width: 70px;
+    height: 36px;
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    transform: translateX(5vh);
+}
+.body-list ui li:hover{
+    background-color: rgb(44, 97, 241);
+    border: 1px solid #6ac13c;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.title {
+    transform: translateX(5vh);
+    color: rgb(2, 2, 2);
+}
+
+.body {
+    transform: translateX(-1vh);
+}
+
+#prev {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#next {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 80%;
+} */
+
+/*字体颜色*/
+/* .lightrey {
+    color: #160303;
+}
+
+.darkgrey {
+    color: #ffffff;
+}
+
+.green {
+    color: #eed5d5;
+}
+
+.greenbox {
+    border: 1px solid #6ac13c;
+    background: #e5e6e7;
+} */
+</style>
+    </head>
+        <body style="background: url(img/2b.jpg) no-repeat ; background-size: 100% 100%; background-position: 0% 320px; ">
+            <!--<script type="text/javascript" color="255,0,0" pointColor="255,0,0" opacity="0,7" zIndex="15" count="100" src="canvas-nest.js"></script>-->
+            <div id="kratos-wrapper">
+                <div id="kratos-page"> 
+                    <nav id="offcanvas-menu" class="menu-main-container" style="height: 876px; right: -240px;">
+                    <ul id="" class="ul-me">
+                        <li><a href="http://loking.tk/"><i class="fa fa"></i> 首页</a></li>
+<li><a><i class="fa fa"></i>教程</a>
+<ul class="sub-menu">
+    <li class="current-post-ancestor current-menu-parent"><a href=""></a></li>
+    <li class="current-post-ancestor current-menu-parent"><a href=""></a></li>
+    <li><a href="system.html" target="_black">U启动</a></li>
+</ul>
+</li>
+<li><a><i class="fa fa"></i> 功能</a>
+    <ul class="sub-menu">
+        <li><a href="login.html">注册</a></li>
+        <li><a href="login.html">登录</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" ><del>邮箱</del></a></li>
+</ul>
+</li>
+<li><a><i class="fa fa"></i>友链</a>
+<ul class="sub-menu">
+    <li><a target="_blank" rel="noopener noreferrer" href="http://keai.icu/" target="_black">keai</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="" target="_black"></a></li>
+    </ul>
+    </li>
+    <li><a href="https://www.dogfight360.com/blog/">工具</a></li>
+    </nav>
+        <div id="kratos-header">
+                <header id="kratos-header-section">
+            <div class="container">
+                <div class="nav-header">
+    <nav id="kratos-menu-wrap" class="menu-main-container"><ul id="kratos-primary-menu" class="sf-menu">
+            <li><a href=""><i class="fa fa"></i> 首页</a></li>
+<li><a><i class="fa fa"></i>教程</a>
+    <ul class="sub-menu" style="display: none; height: 200px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+        <li><a href="system.html" target="_black">U启动</a></li>
+</ul>
+</li>
+<li><a><i class="fa fa"></i> 功能</a>
+    <ul class="sub-menu" style="display: none;height: 160px;padding-top: 0px;margin-top: 0px;padding-bottom: 0px;margin-bottom: 0px;">
+        <li><a href="login.html">注册</a></li>
+        <li><a href="login.html">登录</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" ><del>邮箱</del></a></li>
+</ul>
+</li>
+<li><a><i class="fa fa"></i>友链</a>
+<ul class="sub-menu" style="display: none; height: 240px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+    <li><a target="_blank" rel="noopener noreferrer" href="http://keai.icu/" target="_black">keai</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="" target="_black"></a></li>
+</ul>
+</li>
+<li><a href="https://www.dogfight360.com/blog/" target="_black">工具</a></li>
+<li><a href="http://yptue.ml:81/index.php/login/"  target="_black">网盘-测试</a></li>
+<li><a href="about.html" target="_black">关于</a>
+    </nav>
+        </div>
+            </div>
+        </header>
+    </div>
+        <div class="kratos-start kratos-hero-2">
+            <div class="kratos-overlay"></div>
+                <div class="kratos-cover kratos-cover_2 text-center">
+                    <div class="desc desc2 animate-box">
+                        <a href=""><h2>次元小白 | 不断的学习</h2><br><span>Weak and poor.<br>开发板还在摸索<br>2022年中关服优化</span></a>
+                    </div>
+                </div>
+            </div>
+            <a class="cd-top faa-float animated" style="top:-999px;"></a>
+    <div id="container" class="container" style="opacity: 0.6;">
+<div class="row">
+    <section id="main" class="col-md-8">
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-status">
+                <i class="fa fa-refresh"></i>
+            <div class="kratos-status-inner">
+            <header>
+                <p>
+                <a href="https://mobile.yangkeduo.com/mall_page.html?mall_id=220261069&msn=62gurw7efincdohul5cgm4d5ja_axbuy&mall_info=%7B%22mall_name%22%3A%22%E5%B0%9A%E4%B8%9C%E5%B0%9A%E8%A5%BF%E5%B8%8C%E5%A5%88%E5%B0%94%22%7D&goods_id=322327069236&refer_page_name=goods_detail&refer_page_id=10014_1642772604751_z94fct5zwb&refer_page_sn=10014" target="_blank">拼多多女装店</a>
+                <br>
+                <a href="https://shop196407820.m.taobao.com/?weexShopTab=shopindexbar&weexShopSubTab=shopindex&x_object_type=miniapp&x_miniapp_id=3000000059460194&sourceType=other&suid=d88c946f-f3b2-476d-ba6b-c64c51b30715&shareUniqueId=14703225526&ut_sk=1.YQyPxGCwhPMDAPazPvJ8S0%2Bx_21646297_1642774658797.Copy.shop&un=2cfc1cdf01444f3e1d47af8e7279b96e&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_tk=5Y675aW55Lmf5bCP5LuW5aW95pyJ5Lus5pyJ5a2m5LuW&cpp=1&shareurl=true&short_name=h.f9NhvVg&bxsign=scdKVQBTr2GFwe8ztlbI53GA5racikTEhxXKANBhuxklDajYfygmJZ7gswTDzvXXQCJx2NPmMMwicOk5oZSaq4qEfLWxkGPsKtLjI-KqWs4fmQggvx1MFdJI6UckXmAF3-S&sm=dbcbd9&app=chrome" target="_black">淘宝女装店</a>
+                </p>
+            </header>
+            </div>
+        </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-entry-border-new clearfix">
+                <div class="kratos-status">
+                    <div class="kratos-status-inner">
+                        <span class="comments-number">
+                            <header>
+                            <p>
+                            <a href="vlog.html" target="_blank">个人主页</a>
+                            <br>
+                            <a href="Module.html" target="_black">硬件板块</a>
+                            <body>
+                            </body>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <header>
+                        <p>
+                        <a href="https://pixiv.moe/" target="_blank"></i>福利</a>
+                        <br>
+                        <a href="http://yptue.ml:81/index.php/s/GKMzDBPewKxDHq8" target="_black">猜猜看?网盘apk下载</a>
+                        <br>
+                        <!-- <a href="http://xked.ml:81/"><del>雮林岚-手游</del></a>
+                        <a href="unio.apk"><del>测试会闪退</del></a>
+                        <br> -->
+                        <a href="img/Naraka 2021-06-19 17-09-50.mp4">永劫无间视频</a>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-status">
+                <img src="img/logo.jpg"><a href="baipiao.html" target="_blank">软件白嫖站</i>
+                <div class="kratos-status-inner"></div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <span class="comments-number">
+                        <i class="iconfont icon-mark"></i>
+                        <a href="http://loking.tk/" target="_black">留言</a>
+                    </span>
+                </div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-entry-border-new clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <span class="comments-number">
+                    <header>
+                        <p>
+                        <p>openwrt</p>
+                        <br>
+                        <body>
+                        <a href="https://mirror.sjtu.edu.cn/openwrt/releases/" target="_blank">全版本</a>
+                        <br>
+                        <a href="https://mirror.sjtu.edu.cn/openwrt/releases/21.02.0/targets/x86/64/" target="_black">21020openwrt</a>
+                        <br>
+                        <a href="https://mirror.sjtu.edu.cn/openwrt/releases/18.06.2/targets/x86/64/" target="_black">18062openwrt</a>
+                        <br>
+                        <a href="https://mirror.sjtu.edu.cn/openwrt/releases/19.07.2/targets/arc770/generic/" target="_black">19072openwrt  32位系统版本</a>
+                    </body>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <!--<canvas id="myCanvas" width="30" height="10"></canvas>-->
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-entry-border-new clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <span class="comments-number">
+                    <header>
+                        <p>
+                        <a href="https://9.234456.xyz/abc.html?t=1622594773822" target="_blank">VPN</div>
+                        <br>
+                        <body> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        如何使用请点击网页进行查看
+                        </body>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-entry-border-new clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <span class="comments-number">
+                    <header>
+                        <p>
+                        <a href="server.html" target="_blank">服务器搭建&防御软件</div>
+                        <br>
+                        <body>
+                        </body>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <article class="kratos-hentry clearfix">
+            <div class="kratos-entry-border-new clearfix">
+            <div class="kratos-status">
+                <div class="kratos-status-inner">
+                    <span class="comments-number">
+                    <header>
+                        <p>
+                        <a href="post.html" target="_blank">端口设置<br>软穿和硬穿设置</div>
+                        <br>
+                        <body>
+                        </body>
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </article>
+        <!-- <aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
+            <div id="sidebar" class="affix-top">
+                <aside id="kratos_about-2" class="widget widget_kratos_about clearfix">
+        <div class="calendar">
+            <div class="title">
+            <h1 class="green" id="calendar-title">Month</h1>
+            <h2 class="green small" id="calendar-year">Year</h2>
+            <a href="" id="prev">◀</a>
+            <a href="" id="next">▶</a>
+    </div>
+    <div class="body">
+        <div class="lightgrey body-list">
+        <ui class="rili">
+            <li>MON</li>
+            <li>TUE</li>
+            <li>WED</li>
+            <li>THU</li>
+            <li>FRI</li>
+            <li>SAT</li>
+            <li>SUN</li>
+        </ui>
+    </div>
+    <div class="darkgrey body-list">
+        <ui id="days"></ui>
+      </div>
+    </div>
+</div>
+</aside> -->
+        <!--<div class="text-center" id="page-footer">
+            <ul class="pagination"><li class="active">
+                <a href="index.html">1</a></li>
+                <li><a href="index.html">2</a></li>
+                <li><a href="index.html" class="next" title="下一页">&gt;</a></li>
+                <li><a href="index.html/page/2" class="extend" title="尾页">»</a></li>
+            </ul>
+        </div>-->
+        <div id="footer" style="background:rgba(0,0,0,.2)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 footer-list text-center">
+                        <p class="kratos-social-icons"></p>
+                            <span id="span" style="color:	#F0F8FF;"></span>
+                                <script type="text/javascript">
+                                function runtime(){
+                                X = new Date("12/23/2020 20:35:00");
+                                Y = new Date();
+                                T = (Y.getTime()-X.getTime());
+                                M = 24*60*60*1000;
+                                a = T/M;
+                                A = Math.floor(a);
+                                b = (a-A)*24;
+                                B = Math.floor(b);
+                                c = (b-B)*60;
+                                C = Math.floor((b-B)*60);
+                                D = Math.floor((c-C)*60);
+                                span.innerHTML = "<a href=https://moedog.org> Theme By 犬's Blog<a><br>努力多一点回报多一点 | 本站已在运行: "+A+" d "+B+" h "+C+" m "+D+" s "
+                            }
+        setInterval(runtime, 1000);
+        </script>
+    </section>
+<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
+    <div id="sidebar" class="affix-top">
+        <aside id="kratos_about-2" class="widget widget_kratos_about clearfix">        
+            <div class="photo-background">
+                <div class="photo-background" style="background:url(img/ccpd.gif) no-repeat center center;-webkit-background-size:cover;background-size: 45% 100%;">
+            </div>
+<aside id="kratos_comments-2" class="kratos_comments clearfix">
+    <div id="sidebar" class="affix-top">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=350 height=450 src="http://music.163.com/outchain/player?type=0&id=5416506110&auto=0&height=430"></iframe>
+    </div>
+</aside>
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.3/static/js/theme.min.js?ver=0.4.3"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var xb = {"thome":"https:\/\/moedog.org\/wp-content\/themes\/Kratos-alpha","ctime":"01\/25\/2017 15:25:00","alipay":"https:\/\/cdn.jsdelivr.net\/gh\/xb2016\/kratos-pjax@0.4.2\/static\/images\/alipayqr.png","wechat":"https:\/\/cdn.jsdelivr.net\/gh\/xb2016\/kratos-pjax@0.4.2\/static\/images\/wechatpayqr.png","copy":"","ajax_url":"https:\/\/moedog.org\/wp-admin\/admin-ajax.php","order":"asc","owo":"https:\/\/cdn.jsdelivr.net\/gh\/xb2016\/kratos-pjax@0.4.3","site_sh":"61"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@0.4.3/static/js/kratos.js?ver=0.4.3"></script>
 </body>
 </html>
